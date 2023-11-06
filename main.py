@@ -18,5 +18,6 @@ App = QApplication(sys.argv)
 # Get the path found by the depth first search algorithm
 window = Window.Window()
 
+#Call to exit the application
 sys.exit(App.exec())
 
